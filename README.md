@@ -3,6 +3,8 @@ This repository contains the implementation of the paper "EC-GAN: Low-Sample Cla
 
 Our proposed model combines a Generative Adversarial Network with a classifier to leverage artifical GAN generations to increase the size of restricted, fully-supervised datasets in a semi-supervised method.
 
+For a more in-depth review, refer to this medium article (in Towards Data Science): https://towardsdatascience.com/artificial-data-for-image-classification-5b2ede40640f
+
 ## Abstract
 Semi-supervised learning is gaining interest because it addresses classification tasks with limited labeled data. Some popular algorithms using Generative Adversarial Networks (GANs) for semi-supervised classification share a single architecture for classification and discrimination. However, this may require a model to converge to a separate data distribution for each task, which may reduce overall performance. While progress in semi-supervised learning has been made, less addressed are small-scale, fully-supervised tasks where even unlabeled data is unavailable and unattainable. Thus, we propose an algorithm titled EC-GAN, or the External Classifier GAN, that utilizes GANs and semi-supervised algorithms to improve classification in fully-supervised regimes. Our method leverages a GAN to generate artificial data, which supplements supervised classification. More specifically, we attach an external classifier, hence the name EC-GAN, to the GAN’s generator, as opposed to sharing an architecture with the discriminator. We show our algorithm performs comparably to the shared architecture method, performs far superior to standard data augmentation and regularization, and performs strongly on a small, realistic dataset.
 
