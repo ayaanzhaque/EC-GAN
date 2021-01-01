@@ -1,5 +1,5 @@
 # EC-GAN
-This repository contains the implementation of the paper "EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs" by Ayaan Haque, which will appear at the [35th AAAI Conference on Artificial Intelligence](https://aaai.org/Conferences/AAAI-21/) in February 2021 and will be published in the proceedings (preprint will be available soon).
+This repository contains the implementation of the paper ["EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs"](https://arxiv.org/abs/2012.15864) by Ayaan Haque, which will appear at the [35th AAAI Conference on Artificial Intelligence](https://aaai.org/Conferences/AAAI-21/) in February 2021 and will be published in the proceedings (preprint will be available soon).
 
 Our proposed model combines a Generative Adversarial Network with a classifier to leverage artifical GAN generations to increase the size of restricted, fully-supervised datasets in a semi-supervised method.
 
@@ -25,4 +25,21 @@ A brief summary of the results are shown below. EC-GAN is compared to the shared
 
 ## Code
 The code has been written in Python using the Pytorch framework. Training requries a GPU. We provide a Jupyter Notebook, which can be run in Google Colab, containing the algorithm in a usable version. Open [`EC-GAN.ipynb`](https://github.com/ayaanzhaque/EC-GAN/blob/main/EC-GAN.ipynb) and run it through. The notebook includes annotations to follow along.
+
+## Citation
+
+If you find this repo or the paper useful, please cite:
+
+Ayaan Haque, "EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs," 2020.
+
+```
+@misc{haque2020ecgan,
+      title={EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs}, 
+      author={Ayaan Haque},
+      year={2020},
+      eprint={2012.15864},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
 
