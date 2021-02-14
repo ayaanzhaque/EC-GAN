@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>EC-GAN</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/ayaan-haque-9709021b1/">Ayaan Haque</a></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Saratoga High School</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="static/paper.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2012.15864"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+			  <span class="link-block">
+                <a href="https://towardsdatascience.com/artificial-data-for-image-classification-5b2ede40640f"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-newspaper"></i>
+                  </span>
+                  <span>Blog</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+			  <span class="link-block">
+                <a href="static/poster.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span>
+			  <span class="link-block">
+                <a href="static/presentation.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+					<i class="fas fa-file-powerpoint"></i>
+                  </span>
+                  <span>Slides</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/ayaanzhaque/EC-GAN"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class='section'>
+	<div class='container'>
+	  <div class="columns is-centered has-text-centered">
+		<div class="column is-two-thirds">
+		  <div class="content has-text-justified">
+	  <img src="static/images/ECGAN.png" style='width:100%;'>
+	</div>
+	<div class="content has-text-justified">
+		<p>
+		  This paper was accepted to <a href="https://aaai.org/Conferences/AAAI-21/">35th AAAI Conference on Artificial Intelligence (AAAI 2021)</a> which was held in February of 2021.
+		  The paper was also selected as a finalist paper for the student abstract track and chosen for a 3-minute thesis presentation competition.
+		  The paper is available on ArXiv, and the blog is available on Towards Data Science on Medium.
+		</p>
+	  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+
+<section class="section">
+  <div class="container">
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h2 class="title is-2">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Semi-supervised learning has been gaining attention as it allows for performing image analysis tasks such as 
+			classification with limited labeled data. Some popular algorithms using Generative Adversarial Networks (GANs) 
+			for semi-supervised classification share a single architecture for classification and discrimination. However, 
+			this may require a model to converge to a separate data distribution for each task, which may reduce overall 
+			performance. While progress in semi-supervised learning has been made, less addressed are small-scale, 
+			fully-supervised tasks where even unlabeled data is unavailable and unattainable. We therefore, propose a novel 
+			GAN model namely External Classifier GAN (EC-GAN), that utilizes GANs and semi-supervised algorithms to improve 
+			classification in fully-supervised regimes. Our method leverages a GAN to generate artificial data used to 
+			supplement supervised classification. More specifically, we attach an external classifier, hence the name EC-GAN, 
+			to the GAN's generator, as opposed to sharing an architecture with the discriminator. Our experiments demonstrate 
+			that EC-GAN's performance is comparable to the shared architecture method, far superior to the standard data 
+			augmentation and regularization-based approach, and effective on a small, realistic dataset.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Abstract. -->
+
+  <br>
+  <br>
+  <br>
+
+  <!-- Poster -->
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-two-thirds">
+      <h2 class="title is-2">Poster</h2>
+      <div class="content has-text-justified">
+        <img src="static/images/poster.png" style='width:100%;'>
+      </div>
+    </div>
+  </div>
+  <!--/ Paper video. -->
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-two-thirds">
+      <h2 class="title is-2">Video</h2>
+      <div class="publication-video">
+        <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container content">
+    <h2 class="title">Citation</h2>
+    <pre><code>@misc{haque2020ecgan
+  author={EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs},
+  year={2020},
+  eprint={2012.15864},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" href="static/paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/ayaanzhaque" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website template was used from <a href="https://github.com/nerfies/nerfies.github.io">here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

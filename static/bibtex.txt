@@ -1,0 +1,8 @@
+@misc{haque2020ecgan,
+      title={EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs}, 
+      author={Ayaan Haque},
+      year={2020},
+      eprint={2012.15864},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
