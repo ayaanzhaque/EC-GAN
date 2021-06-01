@@ -33,13 +33,16 @@ If you find this repo or the paper useful, please cite:
 Ayaan Haque, "EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs," 2020.
 
 ```
-@misc{haque2020ecgan,
+@article{Haque_2021, 
       title={EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs}, 
-      author={Ayaan Haque},
-      year={2020},
-      eprint={2012.15864},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      volume={35}, 
+      url={https://ojs.aaai.org/index.php/AAAI/article/view/17895},
+      number={18}, 
+      journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+      author={Haque, Ayaan}, 
+      year={2021}, 
+      month={May}, 
+      pages={15797-15798} 
 }
 ```
 
