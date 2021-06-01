@@ -73,7 +73,7 @@
                   <span>arXiv</span>
                 </a>
               </span>
-			  <span class="link-block">
+			        <span class="link-block">
                 <a href="https://towardsdatascience.com/artificial-data-for-image-classification-5b2ede40640f"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -92,7 +92,7 @@
                   <span>Video</span>
                 </a>
               </span>
-			  <span class="link-block">
+			        <span class="link-block">
                 <a href="static/poster.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -101,13 +101,22 @@
                   <span>Poster</span>
                 </a>
               </span>
-			  <span class="link-block">
+			        <span class="link-block">
                 <a href="static/presentation.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-					<i class="fas fa-file-powerpoint"></i>
+					      <i class="fas fa-file-powerpoint"></i>
                   </span>
                   <span>Slides</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17895"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-book"></i>
+                  </span>
+                  <span>Proceedings</span>
                 </a>
               </span>
               <!-- Code Link. -->
@@ -161,17 +170,17 @@
         <div class="content has-text-justified">
           <p>
             Semi-supervised learning has been gaining attention as it allows for performing image analysis tasks such as 
-			classification with limited labeled data. Some popular algorithms using Generative Adversarial Networks (GANs) 
-			for semi-supervised classification share a single architecture for classification and discrimination. However, 
-			this may require a model to converge to a separate data distribution for each task, which may reduce overall 
-			performance. While progress in semi-supervised learning has been made, less addressed are small-scale, 
-			fully-supervised tasks where even unlabeled data is unavailable and unattainable. We therefore, propose a novel 
-			GAN model namely External Classifier GAN (EC-GAN), that utilizes GANs and semi-supervised algorithms to improve 
-			classification in fully-supervised regimes. Our method leverages a GAN to generate artificial data used to 
-			supplement supervised classification. More specifically, we attach an external classifier, hence the name EC-GAN, 
-			to the GAN's generator, as opposed to sharing an architecture with the discriminator. Our experiments demonstrate 
-			that EC-GAN's performance is comparable to the shared architecture method, far superior to the standard data 
-			augmentation and regularization-based approach, and effective on a small, realistic dataset.
+            classification with limited labeled data. Some popular algorithms using Generative Adversarial Networks (GANs) 
+            for semi-supervised classification share a single architecture for classification and discrimination. However, 
+            this may require a model to converge to a separate data distribution for each task, which may reduce overall 
+            performance. While progress in semi-supervised learning has been made, less addressed are small-scale, 
+            fully-supervised tasks where even unlabeled data is unavailable and unattainable. We therefore, propose a novel 
+            GAN model namely External Classifier GAN (EC-GAN), that utilizes GANs and semi-supervised algorithms to improve 
+            classification in fully-supervised regimes. Our method leverages a GAN to generate artificial data used to 
+            supplement supervised classification. More specifically, we attach an external classifier, hence the name EC-GAN, 
+            to the GAN's generator, as opposed to sharing an architecture with the discriminator. Our experiments demonstrate 
+            that EC-GAN's performance is comparable to the shared architecture method, far superior to the standard data 
+            augmentation and regularization-based approach, and effective on a small, realistic dataset.
           </p>
         </div>
       </div>
@@ -227,13 +236,18 @@
 <section class="section" id="BibTeX">
   <div class="container content">
     <h2 class="title">Citation</h2>
-    <pre><code>@misc{haque2020ecgan
-  author={EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs},
-  year={2020},
-  eprint={2012.15864},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG}
-}</code></pre>
+    <pre><code>@article{Haque_2021, 
+      title={EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs}, 
+      volume={35}, 
+      url={https://ojs.aaai.org/index.php/AAAI/article/view/17895},
+      number={18}, 
+      journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+      author={Haque, Ayaan}, 
+      year={2021}, 
+      month={May}, 
+      pages={15797-15798} 
+  }
+</code></pre>
   </div>
 </section>
 
