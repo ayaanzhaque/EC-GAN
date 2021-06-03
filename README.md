@@ -30,7 +30,7 @@ The code has been written in Python using the Pytorch framework. Training requri
 
 If you find this repo or the paper useful, please cite:
 
-Ayaan Haque, "EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs," 2020.
+Ayaan Haque, "EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs," 2021.
 
 ```
 @article{Haque_2021, 
