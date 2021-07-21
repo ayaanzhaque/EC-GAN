@@ -3,6 +3,14 @@ This repository contains the implementation of the paper ["EC-GAN: Low-Sample Cl
 
 Our proposed model combines a Generative Adversarial Network with a classifier to leverage artifical GAN generations to increase the size of restricted, fully-supervised datasets in a semi-supervised method.
 
+<p align="center">
+    <a href="https://slideslive.com/38951242/ecgan-lowsample-classification-using-semisupervised-algorithms-and-gans?ref=account-83491-history">
+        <img src="https://github.com/ayaanzhaque/EC-GAN/blob/main/images/AAAI%20Finalist%20Presentation%20AH.png" alt="Thumbnail"/>
+        <br />
+        Watch on Oral Presentation
+    </a>
+</p>
+
 For a more in-depth review, refer to this medium article (in Towards Data Science): https://towardsdatascience.com/artificial-data-for-image-classification-5b2ede40640f
 
 ## Abstract
