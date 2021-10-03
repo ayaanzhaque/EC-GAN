@@ -7,7 +7,7 @@ Our proposed model combines a Generative Adversarial Network with a classifier t
     <a href="https://slideslive.com/38951242/ecgan-lowsample-classification-using-semisupervised-algorithms-and-gans?ref=account-83491-history">
         <img src="https://github.com/ayaanzhaque/EC-GAN/blob/main/images/AAAI%20Finalist%20Presentation%20AH.png" alt="Thumbnail"/>
         <br />
-        Watch on Oral Presentation
+        Watch Oral Presentation
     </a>
 </p>
 
